@@ -1,0 +1,15 @@
+n=int(input())
+f=0
+s=1
+if n<=0:
+    print("Enter positive integer")
+elif n==1:
+    print(f)
+else:
+    count=0 
+    while count<n:
+        print(f)
+        c=f+s 
+        f=s 
+        s=c 
+        count+=1
